@@ -2,9 +2,9 @@
   "name": "redoc",
   "version": "0.0.1",
   "scripts": {
-    "start": "bsb -make-world -backend native",
-    "watch": "bsb -make-world -backend native -w",
-    "postinstall": "bsb -make-world -backend native"
+    "start": "node_modules/.bin/bsb -make-world -backend native",
+    "watch": "node_modules/.bin/bsb -make-world -backend native -w",
+    "postinstall": "node_modules/.bin/bsb -make-world -backend native"
   },
   "bin": "./redoc.sh",
   "keywords": [
